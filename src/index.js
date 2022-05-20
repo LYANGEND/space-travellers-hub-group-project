@@ -16,12 +16,11 @@ root.render(
       <Provider store={store}>
         <NavBar />
         <Routes>
-          <Route path='/Rockets' element={<AllRockets />}/>
-          <Route path='/Mission' element={<Mission />}/>
-          <Route path='/MyProfile' element={<MyProfile />}/>
+          <Route path="/Rockets" element={<AllRockets />} />
+          <Route path="/Mission" element={<Mission />} />
+          <Route path="/MyProfile" element={<MyProfile />} />
         </Routes>
       </Provider>
     </Router>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
-
