@@ -1,12 +1,10 @@
 import React from 'react';
 import '../styles/navbar.css';
 
-const MyProfile = () => {
-  return (
-    <div>
-      <p>MyProfile</p>
-    </div>
-  );
-};
+const MyProfile = () => (
+  <div>
+    <p>MyProfile</p>
+  </div>
+);
 
 export default MyProfile;

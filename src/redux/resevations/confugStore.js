@@ -3,10 +3,10 @@ const LEAVE_MISSION = 'REMOVE_RESERVATON';
 const GET_MISSIONS = 'bGET_MISSIN';
 
 const initialState = {
-  name:'MissionData',
+  name: 'MissionData',
   description: 'Irene Vlachou is a typeface designer based in Athens, Greece. She holds an MA in Typeface Design from the University of Reading. Irene has collaborated with international type foundries and corporations, working as a typeface designer and a consultant for Greek typefaces. From 2013 to 2019.',
   stateMember: 'No a menbre',
-  stateJoin:'Join Mission',
+  stateJoin: 'Join Mission',
 };
 export const joinMission = (payload) => ({
   type: JOIN_MISSON,
